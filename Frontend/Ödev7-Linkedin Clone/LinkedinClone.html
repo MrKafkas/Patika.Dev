@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedinClone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/13ca4fa505.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="container-fluid nav navbar nav-item d-flex gap-2 border-bottom sticky-top bg-light"
+    >
+      <i
+        class="fa-brands fa-linkedin fa-2xl"
+        style="margin-left: 20px; color: #005eff"
+      ></i>
+      <input class="form-check" type="text" style="size: 40px" />
+      <div class="text-center mt-2" style="margin-left: 420px">
+        <i class="fa-solid fa-house fa-lg" style="color: #8b8b8b"></i>
+        <p style="font-size: x-small">Anasayfa</p>
+      </div>
+      <div class="text-center mt-2">
+        <i class="fa-solid fa-globe fa-lg" style="color: #8b8b8b"></i>
+        <p style="font-size: x-small">Ağım</p>
+      </div>
+      <div class="text-center mt-2">
+        <i class="fa-solid fa-briefcase fa-lg" style="color: #8b8b8b"></i>
+        <p style="font-size: x-small">İş İlanları</p>
+      </div>
+      <div class="text-center mt-2">
+        <i class="fa-solid fa-comment-dots fa-lg" style="color: #8b8b8b"></i>
+        <p style="font-size: x-small">Mesajlaşma</p>
+      </div>
+      <div class="text-center mt-2">
+        <i class="fa-solid fa-bell fa-lg" style="color: #8b8b8b"></i>
+        <p style="font-size: x-small">Bildirimler</p>
+      </div>
+      <div class="text-center mt-2">
+        <i class="fa-solid fa-circle-user fa-lg" style="color: #8b8b8b"></i>
+        <p style="font-size: x-small">Ben</p>
+      </div>
+      <div
+        class="text-center mt-2"
+        style="margin-left: 30px; margin-right: 20px"
+      >
+        <i
+          class="fa-solid fa-braille fa-rotate-90 fa-lg"
+          style="color: #8b8b8b"
+        ></i>
+        <p style="font-size: x-small">İş için</p>
+      </div>
+      <div class="text-center" style="margin-right: 40px">
+        <a href=""
+          ><p>
+            Premium'u ücretsiz <br />
+            deneyin
+          </p>
+        </a>
+      </div>
+    </nav>
+    <div class="d-flex justify-content-between">
+      <!--Sol Taraf-->
+      <div class="col-sm-12 col-md-2">
+        <div class="card m-3 p-0">
+          <div>
+            <img
+              class="img-fluid mx-auto rounded-1"
+              src="KapakFotoğrafı.png"
+              alt=""
+            />
+          </div>
+          <div class="card-img-overlay">
+            <img
+              class="img-fluid mt-3 rounded-5 card"
+              style="height: 3rem"
+              src="Profil Fotoğrafı.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="mt-4 text-center">
+            <p class="mb-0">Ömer KAFKAS</p>
+            <p class="mb-0" style="font-size: small; color: #8b8b8b">
+              Mühendis
+            </p>
+          </div>
+          <hr class="m-0" />
+          <div class="p-1 mt-2">
+            <p style="font-size: small">
+              bağlantı <span class="float-end" style="color: #005eff">5</span>
+              <br />
+              <strong>İletişim ağınızı büyütün.</strong>
+            </p>
+          </div>
+          <hr class="m-0" />
+          <div class="p-2">
+            <p style="font-size: small; margin-bottom: 0px">
+              Özel araç ve içgörülere erişin
+            </p>
+            <a href=""
+              ><i class="fa-solid fa-copy fa-xs" style="color: #d0c011"></i>
+              <span style="font-size: small; color: black"
+                >Premium'u ücretsiz deneyin</span
+              >
+            </a>
+          </div>
+          <hr class="m-0" />
+          <div class="p-2 mb-0">
+            <p>
+              <i
+                class="fa-solid fa-bookmark fa-sm me-2"
+                style="color: #8b8b8b"
+              ></i
+              >Öğelerim
+            </p>
+          </div>
+        </div>
+        <div class="card m-3 p-0 sticky-top" style="top: 79px">
+          <div class="p-2">
+            <p style="color: #005eff; font-size: small">Gruplar</p>
+            <p style="color: #005eff; font-size: small">
+              Etkinlikler
+              <button class="float-end border-0 rounded-5">
+                <i class="fa-solid fa-plus fa-lg" style="color: #8b8b8b"></i>
+              </button>
+            </p>
+            <p style="color: #005eff; font-size: small">
+              Takip Edilen hashtagler
+            </p>
+          </div>
+          <hr class="m-0" />
+          <div class="btn">
+            <p class="mb-0" style="color: #8b8b8b">Daha fazla keşfet</p>
+          </div>
+        </div>
+      </div>
+      <!--Orta kısım-->
+      <div class="col-7 mt-4">
+        <div class="card">
+          <div class="d-flex p-3 gap-2">
+            <img
+              class="img-fluid rounded-5"
+              style="height: 3rem"
+              src="Profil Fotoğrafı.jpeg"
+              alt=""
+            />
+            <div class="btn btn-light border rounded-5" style="width: 700px">
+              <p class="mt-2">Gönderi Başlat</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-around">
+            <div class="btn btn-light" style="width: 110px">
+              <p>
+                <i class="fa-regular fa-image fa-lg" style="color: #155fe0"></i
+                >Fotoğraf
+              </p>
+            </div>
+            <div class="btn btn-light" style="width: 110px">
+              <p>
+                <i
+                  class="fa-brands fa-youtube fa-lg"
+                  style="color: #43c70a"
+                ></i>
+                Video
+              </p>
+            </div>
+            <div class="btn btn-light" style="width: 110px">
+              <p>
+                <i
+                  class="fa-regular fa-calendar fa-lg"
+                  style="color: #fab700"
+                ></i
+                >Etkinlik
+              </p>
+            </div>
+            <div class="btn btn-light" style="width: 110px">
+              <p>
+                <i
+                  class="fa-regular fa-newspaper fa-lg"
+                  style="color: #ed5807"
+                ></i
+                >Yazı Yaz
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="btn d-flex">
+          <hr class="col-8" />
+          <p>
+            Sıralama ölçütü: En Önemli<i
+              class="fa-solid fa-caret-down fa-xs"
+              style="color: #0a0a0a"
+            ></i>
+          </p>
+        </div>
+        <!--Gönderiler-->
+        <div class="card mb-2">
+          <div class="d-flex align-items-center justify-content-between px-2">
+            <div
+              class="d-flex align-items-center justify-content-between p-3 gap-2 pb-0"
+            >
+              <div>
+                <i
+                  class="fa-brands fa-facebook fa-2xl"
+                  style="color: #1b69ee"
+                ></i>
+              </div>
+              <div class="d-flex flex-column">
+                <h6 class="mb-0">
+                  Facebook
+                  <span style="color: #8b8b8b; font-size: small"
+                    >Takip Edilenler</span
+                  >
+                </h6>
+                <p class="mb-0" style="font-size: small; color: #8b8b8b">
+                  Sosyal Medya Platformu
+                </p>
+                <p class="mb-0" style="font-size: small; color: #8b8b8b">
+                  1 Saat.<i
+                    class="fa-solid fa-earth-europe fa-xs"
+                    style="color: #8b8b8b"
+                  ></i>
+                </p>
+              </div>
+            </div>
+            <div class="pe-3">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #8b8b8b"></i>
+            </div>
+          </div>
+
+          <div class="p-4 pt-0 pb-0">
+            <p class="mb-0">
+              Meta Inc. veya eski ismiyle Facebook Inc., Menlo Park, Kaliforniya
+              merkezli bir Amerikan sosyal medya ve medya holdingidir. Mark
+              Zuckerberg, oda arkadaşları ve Harvard Koleji'ndeki Eduardo
+              Saverin, Andrew McCollum, Dustin Moskovitz ve Chris Hughes ile
+              birlikte kuruldu. Facebook, dünyanın en değerli şirketlerinden
+              biridir. Microsoft, Amazon, Apple ve Google ile birlikte en büyük
+              beş teknoloji şirketinden (Big Tech) biri olarak kabul edilir.
+            </p>
+          </div>
+          <div class="d-flex justify-content-between m-3">
+            <div class="d-flex gap-1">
+              <div>
+                <i
+                  class="fa-regular fa-thumbs-up fa-sm"
+                  style="color: #3f7ade"
+                ></i>
+              </div>
+              <div>
+                <i
+                  class="fa-brands fa-gratipay fa-sm"
+                  style="color: #cd4242"
+                ></i>
+              </div>
+              <div>
+                <i
+                  class="fa-solid fa-hands-clapping fa-sm"
+                  style="color: #1ad917"
+                ></i>
+              </div>
+              <div>205</div>
+            </div>
+            <div class="d-flex gap-1">
+              <div>5 Yorum</div>
+              <div>1 Paylaşım</div>
+            </div>
+          </div>
+          <hr class="m-0" />
+          <div class="d-flex justify-content-around mt-0">
+            <div class="btn btn-light">
+              <i
+                class="fa-regular fa-thumbs-up fa-xl"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Beğen</span>
+            </div>
+            <div class="btn btn-light">
+              <i
+                class="fa-regular fa-comment-dots fa-lg"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Yorum Yap</span>
+            </div>
+            <div class="btn btn-light">
+              <i class="fa-solid fa-retweet fa-lg" style="color: #8b8b8b"></i
+              ><span style="color: #8b8b8b">Paylaş</span>
+            </div>
+            <div class="btn btn-light">
+              <i
+                class="fa-solid fa-paper-plane fa-lg"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Gönder</span>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2">
+          <div class="d-flex p-3 gap-2 pb-0">
+            <div>
+              <i class="fa-brands fa-twitter fa-2xl" style="color: #025cf7"></i>
+            </div>
+            <div>
+              <h6 class="mb-0">
+                Twitter
+                <span style="color: #8b8b8b; font-size: small"
+                  >Takip Edilenler</span
+                >
+              </h6>
+              <p class="mb-0" style="font-size: small; color: #8b8b8b">
+                Sosyal Medya Platformu
+              </p>
+              <p class="mb-0" style="font-size: small; color: #8b8b8b">
+                2 Saat.<i
+                  class="fa-solid fa-earth-europe fa-xs"
+                  style="color: #8b8b8b"
+                ></i>
+              </p>
+            </div>
+            <div style="margin-left: 470px">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #8b8b8b"></i>
+            </div>
+          </div>
+
+          <div class="p-4 pt-0 pb-0">
+            <p class="mb-0">
+              Twitter, Inc., merkezi Kaliforniya eyaletinin San Francisco
+              kentinde bulunan bir Amerikan iletişim şirketidir. Şirket, bir
+              mikroblog ve sosyal ağ hizmeti olan Twitter'ın sahibi ve
+              işletmecisidir. Daha önce bir kısa video uygulaması olan Vine ve
+              canlı yayın hizmeti sunan Periscope'u çalıştırıyordu. Twitter
+              uygulaması, Jack Dorsey, Noah Glass, Biz Stone ve Evan Williams
+              tarafından Mart 2006'da kuruldu ve o yılın Temmuz ayında kullanıma
+              açıldı. 2012 yılı istatistiklerine göre 100 milyondan fazla
+              kullanıcı günde 340 milyon tane tweet atmış ve ortalama 1,6 milyar
+              arama sorgusu gerçekleştirmiş. Şirket, Kasım 2013'te halka açıldı.
+              Twitter'ın 2019 yılı itibarıyla aylık 330 milyondan fazla aktif
+              kullanıcısı var.
+            </p>
+          </div>
+          <div class="d-flex ms-3 me-3">
+            <div class="d-flex justify-content-between m-3">
+              <div class="d-flex gap-1">
+                <div>
+                  <i
+                    class="fa-regular fa-thumbs-up fa-sm"
+                    style="color: #3f7ade"
+                  ></i>
+                </div>
+                <div>
+                  <i
+                    class="fa-brands fa-gratipay fa-sm"
+                    style="color: #cd4242"
+                  ></i>
+                </div>
+                <div>
+                  <i
+                    class="fa-solid fa-hands-clapping fa-sm"
+                    style="color: #1ad917"
+                  ></i>
+                </div>
+                <div>205</div>
+              </div>
+              <div class="d-flex gap-1">
+                <div>5 Yorum</div>
+                <div>1 Paylaşım</div>
+              </div>
+            </div>
+            <hr class="m-0" />
+            <div class="d-flex justify-content-around mt-0">
+              <div class="btn btn-light">
+                <i
+                  class="fa-regular fa-thumbs-up fa-xl"
+                  style="color: #8b8b8b"
+                ></i
+                ><span style="color: #8b8b8b">Beğen</span>
+              </div>
+              <div class="btn btn-light">
+                <i
+                  class="fa-regular fa-comment-dots fa-lg"
+                  style="color: #8b8b8b"
+                ></i
+                ><span style="color: #8b8b8b">Yorum Yap</span>
+              </div>
+              <div class="btn btn-light">
+                <i class="fa-solid fa-retweet fa-lg" style="color: #8b8b8b"></i
+                ><span style="color: #8b8b8b">Paylaş</span>
+              </div>
+              <div class="btn btn-light">
+                <i
+                  class="fa-solid fa-paper-plane fa-lg"
+                  style="color: #8b8b8b"
+                ></i
+                ><span style="color: #8b8b8b">Gönder</span>
+              </div>
+            </div>
+            <div class="btn btn-light">
+              <i
+                class="fa-solid fa-paper-plane fa-lg"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Gönder</span>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2">
+          <div class="d-flex p-3 gap-2 pb-0">
+            <div>
+              <i
+                class="fa-brands fa-square-whatsapp fa-2xl"
+                style="color: #44f702"
+              ></i>
+            </div>
+            <div>
+              <h6 class="mb-0">
+                Whatsapp
+                <span style="color: #8b8b8b; font-size: small"
+                  >Takip Edilenler</span
+                >
+              </h6>
+              <p class="mb-0" style="font-size: small; color: #8b8b8b">
+                Haberleşme ve İletişim
+              </p>
+              <p class="mb-0" style="font-size: small; color: #8b8b8b">
+                3 Saat.<i
+                  class="fa-solid fa-earth-europe fa-xs"
+                  style="color: #8b8b8b"
+                ></i>
+              </p>
+            </div>
+            <div style="margin-left: 470px">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #8b8b8b"></i>
+            </div>
+          </div>
+
+          <div class="p-4 pt-0 pb-0">
+            <p class="mb-0">
+              WhatsApp Messenger, akıllı telefonlar için geliştirilen,
+              platformlar arası çalışma özelliğine sahip bir anlık mesajlaşma ve
+              arama veya haberleşme uygulamasıdır. Android, BlackBerry, iPhone,
+              Windows Phone ve Nokia telefonlarıyla uyumlu olan uygulama, 2G,
+              3G, 4G ya da Wi-Fi İnternet bağlantısı aracılığıyla kullanıcıların
+              birbirlerine fotoğraf, video, ücretsiz arama, sesli ve yazılı
+              mesaj ve belge göndermesini sağlar. Aynı adı taşıyan şirket, eski
+              Yahoo! çalışanları olan Biran Acton ve Jan Koum tarafından ABD'de,
+              Kaliforniya eyaletindeki Santa Clara kentinde kurulmuştur.
+            </p>
+          </div>
+          <div class="d-flex ms-3 me-3">
+            <ul class="nav navbar gap-1">
+              <li>
+                <i
+                  class="fa-regular fa-thumbs-up fa-sm"
+                  style="color: #3f7ade"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands fa-gratipay fa-sm"
+                  style="color: #cd4242"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-solid fa-hands-clapping fa-sm"
+                  style="color: #1ad917"
+                ></i>
+              </li>
+              <li>227</li>
+            </ul>
+            <ul class="nav navbar gap-2" style="margin-left: 470px">
+              <li>9 Yorum</li>
+              <li>16 Paylaşım</li>
+            </ul>
+          </div>
+          <hr class="m-0" />
+          <div class="d-flex justify-content-around mt-0">
+            <div class="btn btn-light">
+              <i
+                class="fa-regular fa-thumbs-up fa-xl"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Beğen</span>
+            </div>
+            <div class="btn btn-light">
+              <i
+                class="fa-regular fa-comment-dots fa-lg"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Yorum Yap</span>
+            </div>
+            <div class="btn btn-light">
+              <i class="fa-solid fa-retweet fa-lg" style="color: #8b8b8b"></i
+              ><span style="color: #8b8b8b">Paylaş</span>
+            </div>
+            <div class="btn btn-light">
+              <i
+                class="fa-solid fa-paper-plane fa-lg"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Gönder</span>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2">
+          <div class="d-flex p-3 gap-2 pb-0">
+            <div>
+              <i class="fa-brands fa-github fa-2xl" style="color: #000000"></i>
+            </div>
+            <div>
+              <h6 class="mb-0">
+                Github
+                <span style="color: #8b8b8b; font-size: small"
+                  >Takip Edilenler</span
+                >
+              </h6>
+              <p class="mb-0" style="font-size: small; color: #8b8b8b">
+                Sürüm Konrol Sistemi
+              </p>
+              <p class="mb-0" style="font-size: small; color: #8b8b8b">
+                4 Saat.<i
+                  class="fa-solid fa-earth-europe fa-xs"
+                  style="color: #8b8b8b"
+                ></i>
+              </p>
+            </div>
+            <div style="margin-left: 470px">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #8b8b8b"></i>
+            </div>
+          </div>
+
+          <div class="p-4 pt-0 pb-0">
+            <p class="mb-0">
+              GitHub, sürüm kontrol sistemi olarak Git kullanan yazılım
+              geliştirme projeleri için web tabanlı bir depolama servisidir. 8
+              Şubat 2008 tarihinde Tom Preston-Werner, Chris Wanstrath, P. J.
+              Hyett, Scott Chacon tarafından kuruldu. GitHub özel depolar için
+              ücretli üyelik seçenekleri sunarken, açık kaynaklı projeler için
+              ücretsizdir. Mayıs 2011 itibarıyla GitHub açık kaynaklı projeler
+              tarafından tercih edilen en popüler depolama servisidir. 4 Haziran
+              2018'de Microsoft, GitHub'ı 7.5 milyar dolar karşılığında satın
+              alacağını açıklamıştır.ve 26 Ekim 2018'de de satın alımın
+              tamamlandığını açıklamıştır.
+            </p>
+          </div>
+          <div class="d-flex ms-3 me-3">
+            <ul class="nav navbar gap-1">
+              <li>
+                <i
+                  class="fa-regular fa-thumbs-up fa-sm"
+                  style="color: #3f7ade"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands fa-gratipay fa-sm"
+                  style="color: #cd4242"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-solid fa-hands-clapping fa-sm"
+                  style="color: #1ad917"
+                ></i>
+              </li>
+              <li>155</li>
+            </ul>
+            <ul class="nav navbar gap-2" style="margin-left: 470px">
+              <li>3 Yorum</li>
+              <li>8 Paylaşım</li>
+            </ul>
+          </div>
+          <hr class="m-0" />
+          <div class="d-flex justify-content-around mt-0">
+            <div class="btn btn-light">
+              <i
+                class="fa-regular fa-thumbs-up fa-xl"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Beğen</span>
+            </div>
+            <div class="btn btn-light">
+              <i
+                class="fa-regular fa-comment-dots fa-lg"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Yorum Yap</span>
+            </div>
+            <div class="btn btn-light">
+              <i class="fa-solid fa-retweet fa-lg" style="color: #8b8b8b"></i
+              ><span style="color: #8b8b8b">Paylaş</span>
+            </div>
+            <div class="btn btn-light">
+              <i
+                class="fa-solid fa-paper-plane fa-lg"
+                style="color: #8b8b8b"
+              ></i
+              ><span style="color: #8b8b8b">Gönder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Sağ kısım-->
+      <div class="col-2 ms-3">
+        <div class="card mt-4 p-2 gap-2">
+          <div class="d-flex">
+            <h6>
+              Akışınıza ekleyin
+              <span style="margin-left: 60px"
+                ><i class="fa-solid fa-info fa-sm" style="color: #000000"></i>
+              </span>
+            </h6>
+          </div>
+          <div class="d-flex">
+            <i
+              class="fa-brands fa-youtube fa-2xl mt-3 me-2"
+              style="color: #ff0000"
+            ></i>
+            <div class="justify-content-center">
+              <p class="mb-0">YouTube</p>
+              <p class="mb-0" style="font-size: small">Şirket</p>
+              <div class="btn btn-light rounded-5">Takip Et</div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <i
+              class="fa-brands fa-discord fa-2xl mt-3 me-2"
+              style="color: #075ced"
+            ></i>
+            <div class="justify-content-center">
+              <p class="mb-0">Discord</p>
+              <p class="mb-0" style="font-size: small">Şirket</p>
+              <div class="btn btn-light rounded-5">Takip Et</div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <i
+              class="fa-brands fa-pinterest fa-2xl mt-3 me-2"
+              style="color: #ff0000"
+            ></i>
+            <div class="justify-content-center">
+              <p class="mb-0">Pinterest</p>
+              <p class="mb-0" style="font-size: small">Şirket</p>
+              <div class="btn btn-light rounded-5">Takip Et</div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3 sticky-top" style="top: 79px">
+          <p class="text-end" style="font-size: small">
+            Reklam
+            <i class="fa-solid fa-ellipsis fa-sm" style="color: #959697"></i>
+          </p>
+          <p class="text-center" style="font-size: small">
+            Ömer, Linkedin Premium ile potansiyelinizin tamamına erişin.
+          </p>
+          <div class="d-flex justify-content-around">
+            <img
+              class="rounded-5"
+              style="width: 45px"
+              src="Profil Fotoğrafı.jpeg"
+              alt=""
+            />
+            <i class="fa-solid fa-key fa-2xl mt-4" style="color: #8b8b8b"></i>
+          </div>
+          <div class="text-center mb-3">
+            <p style="font-size: small">
+              Son 30 günde profilinizi görüntüleyenleri görün.
+            </p>
+            <div class="btn btn-light rounded-4 border-info">
+              <p style="color: #005eff; margin-bottom: 0px">
+                Ücretsiz deneyin!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer mt-3">
+          <ul class="nav justify-content-around gap-1" style="font-size: small">
+            <li>Hakkında</li>
+            <li>Erişilebilirlik</li>
+            <li>Yardım Merkezi</li>
+            <li>Gizlilik ve Koşullar</li>
+            <li>Reklam Tercihleri</li>
+            <li>Reklam</li>
+            <li>Ticari Hizmetler</li>
+            <li>LinkedIn Uygulamasını Yükle</li>
+            <li>Daha Fazla</li>
+            <li style="font-size: x-small">
+              <span style="color: #005eff"
+                >Linked<i
+                  class="fa-brands fa-linkedin fa-small"
+                  style="color: #005eff"
+                ></i></span
+              >LinkedIn Corporation
+              <i
+                class="fa-regular fa-copyright fa-xs"
+                style="color: #8b8b8b"
+              ></i>
+              2023
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex justify-content-end fixed-bottom">
+          <div class="card col-md-2">
+            <img
+              class="rounded-5"
+              style="width: 30px"
+              src="Profil Fotoğrafı.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

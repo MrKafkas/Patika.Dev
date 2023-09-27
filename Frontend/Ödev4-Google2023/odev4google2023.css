@@ -1,0 +1,32 @@
+.bar{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+.insidebar{
+    margin-top: 15px;
+    margin-right: 14px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    width: 550px;
+    height: 250px;
+    justify-content: center;
+    margin-left: 350px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    object-fit: contain;
+    border-radius: 3px;
+    margin-left: 397px;
+    margin-right: 397px;
+}
+.searchbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

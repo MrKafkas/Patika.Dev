@@ -1,0 +1,66 @@
+<div class="card p-2">
+    <p><strong>Sunduğumuz hizmetleri</strong> sergileyin <br> böylece aramalarda bulunabilirsiniz.</p>
+</div>
+
+<div class="container gap-3">
+    <div class="card col-7">
+        <img src="KapakFotoğrafı.png" class="card-img-top" alt="KapakFotoğrafı">
+        <div class="card-body">
+           <div class="card-img-overlay z-1" style="margin-top: 80px;">
+            <img src="Profil Fotoğrafı.jpeg" style="height: 150px; border-radius: 100px;" alt="Profil Fotoğrafı">
+            </div>
+            <div class="float-end">
+                <i class="fa-solid fa-pencil fa-lg" style="color: #8b8b8b;"></i>
+            </div>
+            <div class="mt-5 d-flex">
+                <h4>Ömer KAFKAS</h4>
+                <i class="fa-solid fa-chart-simple fa-xl mt-2" style="color: #8b8b8b; margin-left: 300px;"></i>
+            </div>
+            <div>
+                <p>Mühendis</p>
+                <p><Address>Adana,Türkiye <span style="color: #005eff;">İletişim Bilgileri</span></Address></p>
+                <p style="color: #005eff;">5 Bağlantı</p>
+            </div>
+            <div class="d-flex">
+                <button class="btn btn-primary border-1 rounded-5">Açık</button>
+                <button class="btn btn-light border- rounded-5"> <span style="color: #005eff;">Profil bölümü ekle</span> </button>
+                <button class="btn btn-outline-dark border-1 rounded-5">Daha Fazla</button>
+            </div>
+            <div class="d-flex mt-2 gap-3">
+                <div class="card p-2">
+                    <p> <strong>Kariyer uzmanlarına çalışmaya açık <br> olduğunuzu gösterin-</strong> bunu kimin <br> göreceğini siz kontrol edersiniz.</p>
+                    <p style="color: #005eff;">Başlayın</p>
+                </div>
+                <div class="card p-2">
+                    <p><strong>İşe alım yaptığınızı paylaşın</strong> ve <br> nitelikli adayların dikkatini çekin.</p>
+                    <p style="color: #005eff;">Başlayın</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mt-1 d-flex col-7">
+        <div class="d-flex p-2">
+          <h5 style="margin-right:400px;">Bir yetenek sınavı yapın</h5>
+          <i class="fa-solid fa-x fa-lg mt-3 " style="color: #8b8b8b;"></i>  
+        </div>
+        <div>
+            <div class="d-flex">
+                <i class="fa-solid fa-trophy fa-2xl mt-2" style="color: #8b8b8b; "></i>
+                <p>
+                    <strong>Kariyer uzmanı aramalarında ön plana çıkın</strong>
+                </p>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+   </div>
+
+
+
+
+   <div class="me-3 ms-5 text-end"></div>
+   <div>
+       <i class="fa-brands fa-facebook fa-lg" style="color: #1b69ee;"></i>
+   </div>
